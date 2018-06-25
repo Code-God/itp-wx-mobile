@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>医院icon12x12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="12" height="12"></rect>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <g id="医院icon12x12-act" opacity="0">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="11" height="11"></rect>
+            </g>
+            <path d="M5.25,3.25 L4,3.25 L4,4.75 L5.25,4.75 L5.25,6 L6.75,6 L6.75,4.75 L8,4.75 L8,3.25 L6.75,3.25 L6.75,2 L5.25,2 L5.25,3.25 L5.25,3.25 Z M2,0 L10,0 C10.5522847,-1.01453063e-16 11,0.44771525 11,1 L11,12 L1,12 L1,1 C1,0.44771525 1.44771525,1.01453063e-16 2,0 Z M8,12 L8,8.5 C8,8.22385763 7.77614237,8 7.5,8 L4.5,8 C4.22385763,8 4,8.22385763 4,8.5 L4,12 L5,12 L5,9.25 C5,9.11192881 5.11192881,9 5.25,9 L6.75,9 C6.88807119,9 7,9.11192881 7,9.25 L7,12 L8,12 Z" id="Combined-Shape" fill="#0084FB"></path>
+        </g>
+    </g>
+</svg>

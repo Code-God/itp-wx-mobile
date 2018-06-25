@@ -1,0 +1,110 @@
+@import url("./variable.css");
+.cube-picker-choose{
+  background: #eee;
+  height: 46px!important;
+
+}
+.cube-picker-choose>h1{
+  line-height: 46px!important;
+  height: 46px!important;
+  font-size: 18px!important;
+}
+.cube-picker-choose>span{
+  top: 50%!important;
+  transform: translateY(-50%);
+  padding: 12px!important;
+}
+.cube-btn-primary{
+  background: var(--mainColor);
+}
+.cube-btn-primary:after{
+  border: 1px solid var(--mainColor);
+}
+.cube-picker-choose>[data-action=confirm]{
+  color: var(--mainColor)
+}
+.cube-picker-choose>[data-action=confirm]:active{
+  color: var(--mainColor)
+}
+
+.cube-checkbox_checked {
+  background: var(--activeColor);
+}
+.cube-checkbox_checked .cube-checkbox-ui i{
+  color: var(--activeColor);
+
+}
+.cube-checkbox{
+  padding: 0 10px;
+}
+.cube-btn-primary.cube-btn_active, .cube-btn-primary:active{
+  background: var(--mainColor)
+}
+.border-bottom-1px {
+  position: static;
+}
+.border-top-1px {
+  position: static;
+}
+.border-top-1px:before{
+  border-top: none 0;
+}
+.border-bottom-1px:after{
+   border-bottom: none 0;
+}
+.cube-dialog-btn_highlight{
+  color: var(--mainColor)
+}
+.cube-checkbox-label {
+  font-size: 14px;
+  color: #4E5D6B;
+}
+
+.cube-checkbox-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .cube-checkbox-ui{
+    display: none;
+  }
+  & .cube-checkbox-label{
+    margin-top: 1px;
+  }
+}
+.cube-checkbox{
+  background: #fff;
+  border:1px solid #c7cfdb;
+  border-radius: 5px;
+  & .cube-checkbox-label {
+   & span{
+     color: #C7CFDB;
+   }
+  }
+}
+.cube-checkbox_checked {
+  background: #838f9a;
+  border-color: #838f9a;
+  border: 1px solid #838f9a;
+  & .cube-checkbox-ui {
+    background: #fff;
+    border-color: #fff;
+  }
+  & .cube-checkbox-label {
+    color: #fff;
+    & span{
+    color: #fff;
+   }
+  }
+}
+
+.cube-checkbox_disabled{
+  background: #C7CFDB;
+  border-color: #C7CFDB;
+  border: 1px solid #C7CFDB;
+  & .cube-checkbox-label {
+    color: #fff;
+  & span{
+      color: #fff;
+    }
+  }
+}

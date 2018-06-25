@@ -1,0 +1,61 @@
+/* @svg 1px-border {
+  height: 2px;
+  @rect {
+    fill: var(--color, black);
+    width: 100%;
+    height: 50%;
+  }
+} */
+
+:root {
+  --mainBgColor: #f5f7f7;
+  --mainColor: #0084fb;
+  --mainFontColor: #4E5D6B;
+  --activeColor: #838F9A;
+  --columnCentered: {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  ;
+  --rowCentered: {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ;
+  --inputType: {
+    background: #ffffff;
+    border: 1px solid #c7cfdb;
+    border-radius: 4px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  ;
+  --tabStyle: {
+    & .tab-native {
+      height: 44px;
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0 2px 4px 0 #E4EBF;
+      &>div {
+        width: 50%;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        font-size: 13px;
+        color: var(--mainFontColor);
+        letter-spacing: 0;
+        border-bottom: 2px solid transparent;
+      }
+      & div.active {
+        color: #0084fb;
+        border-bottom: 2px solid #0084fb;
+      }
+    }
+  }
+}
